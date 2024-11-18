@@ -1,0 +1,29 @@
+.header-container {
+    background: linear-gradient(
+      to left,
+      #a0c4ff,  /* Màu xanh nhẹ */
+      #b6e3d4   /* Màu xanh lá nhạt */
+    );
+    margin: 0;
+  
+  }
+  
+  .header-logo-img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .header-text {
+    color: black;  /* Màu den */
+    background-image: none;
+  }
+
+  .flex-header {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10; /* Đảm bảo header luôn nổi phía trên */
+  }

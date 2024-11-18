@@ -1,0 +1,14 @@
+.work-item{
+    position: relative;
+}
+
+.qr-project{
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+}
+
+.qr-project img{
+    width: 150px;
+    height: 150px;
+}

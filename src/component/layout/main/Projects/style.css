@@ -1,0 +1,36 @@
+.education-container {
+    position: relative;
+    margin: 0;
+    background-image: url(../../../../assets/education.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 790px !important;
+}
+
+.container-fluid {
+    position: relative;
+    z-index: 2; /* Content will be in front of the overlay */
+    padding: 40px;
+}
+
+.title-education {
+    color: white; /* Change text color to white for better contrast */
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.content-education {
+    color: white; /* Ensure text is visible on dark background */
+    font-size: 1.25rem;
+    line-height: 1.5;
+}
+
+.content-education span {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.content-education .fw-bold {
+    font-weight: bold;
+}
